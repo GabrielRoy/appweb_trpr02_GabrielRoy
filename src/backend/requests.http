@@ -1,0 +1,28 @@
+### Acces au tableau de pointage
+Get http://127.0.0.1:3000/ranking
+
+### Ajouter un joueur au tableau de pointage
+Post http://127.0.0.1:3000/ranking
+content-type: application/json
+
+{
+    "name": "Murielle Ellemure",
+    "score": 600
+}
+
+### Voir tous les pokemon
+Get http://127.0.0.1:3000/pokemons
+
+### Acces au premier dresseur
+Get http://127.0.0.1:3000/trainers?_page=1&_limit=1
+
+### Acces au deuxieme dresseur
+Get http://127.0.0.1:3000/trainers?_page=2&_limit=1
+
+### Savoir combien il y a de dresseurs
+// Pour savoir combien il y a de dresseurs, simplement demander le premier et prendre
+// ensuite la valeur de la propriete X-Total-Count dans l'entete de la reponse.
+// Exemple de code qui affiche la valeur de X-Total-Count :
+//   const response = await axios.get(`http://localhost:3000/trainers?_page=1&_limit=1`)
+//   console.log(response.headers['x-total-count'])
+Get http://127.0.0.1:3000/trainers?_page=1&_limit=1
