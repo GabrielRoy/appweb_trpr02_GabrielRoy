@@ -8,6 +8,6 @@ const props = defineProps<{
 </script>
 <template>
     <div>
-        <p>{{ place }}. {{ ranking.id }} {{ ranking.name }} : {{ ranking.score }}P$</p>
+        <p>{{ place }}. {{ ranking.name }} : {{ ranking.score }} P$</p>
     </div>
 </template>

@@ -2,13 +2,13 @@
   "ranking": [
     {
       "id": 1,
-      "name": "Red",
-      "score": 520
+      "name": "Leaf",
+      "score": 505
     },
     {
       "id": 2,
-      "name": "Leaf",
-      "score": 505
+      "name": "Red",
+      "score": 520
     },
     {
       "id": 3,

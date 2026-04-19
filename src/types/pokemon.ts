@@ -1,4 +1,4 @@
-export interface Pokemon {
+export type Pokemon = {
    "id": number,
     "name": string,
 }

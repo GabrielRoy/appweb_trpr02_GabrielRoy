@@ -1,18 +1,27 @@
 <script setup lang="ts">
-import Leaderboard from './components/Leaderboard.vue';
 import jsonData from "./backend/db.default.json";
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView, useRoute } from 'vue-router'
+import { ref } from 'vue';
 
-const ranking = jsonData.ranking;
+const route = useRoute();
+const ranking = ref(jsonData.ranking);
 
 function addRanking(name: string, score: number) {
   const newRanking = {
-    id: ranking.length + 1,
+    id: ranking.value.length + 1,
     name: name,
     score: score
   };
 
-  ranking.push(newRanking);
+  ranking.value.push(newRanking);
+}
+
+function handleNavigation(event: Event, to: string) {
+  if (route.path === '/game') {
+    if (!confirm('Êtes-vous sûr de vouloir quitter le jeu ?')) {
+      event.preventDefault();
+    }
+  }
 }
 
 </script>
@@ -20,11 +29,9 @@ function addRanking(name: string, score: number) {
 <template>
   <header>
     <nav>
-      <RouterLink to="/mainMenu">À propos</RouterLink>
-      <RouterLink to="/about">À propos</RouterLink>
+      <RouterLink to="/" @click="handleNavigation($event, '/')">Menu Principal</RouterLink>
+      <RouterLink to="/leaderboard" @click="handleNavigation($event, '/leaderboard')">Leaderboard</RouterLink>
     </nav>
   </header>
-
   <RouterView />
-  <Leaderboard :rankings="ranking"/>
 </template>
