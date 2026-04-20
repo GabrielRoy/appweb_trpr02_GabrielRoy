@@ -1,0 +1,348 @@
+{
+  "ranking": [
+    {
+      "id": 1,
+      "name": "Leaf",
+      "score": 505
+    },
+    {
+      "id": 2,
+      "name": "Red",
+      "score": 520
+    },
+    {
+      "id": 3,
+      "name": "Blue",
+      "score": 490
+    },
+    {
+      "name": "asd",
+      "score": 435,
+      "id": 4
+    },
+    {
+      "name": "asd",
+      "score": 435,
+      "id": 5
+    },
+    {
+      "name": "aasd",
+      "score": 1000,
+      "id": 6
+    },
+    {
+      "name": "aasd",
+      "score": 1000,
+      "id": 7
+    },
+    {
+      "name": "aasd",
+      "score": 1000,
+      "id": 8
+    },
+    {
+      "name": "aasd",
+      "score": 1000,
+      "id": 9
+    },
+    {
+      "name": "aasd",
+      "score": 1000,
+      "id": 10
+    },
+    {
+      "name": "asd",
+      "score": 260,
+      "id": 11
+    }
+  ],
+  "pokemons": [
+    {
+      "id": 1,
+      "name": "Pikachu"
+    },
+    {
+      "id": 2,
+      "name": "Bulbizarre"
+    },
+    {
+      "id": 3,
+      "name": "Salameche"
+    },
+    {
+      "id": 4,
+      "name": "Carapuce"
+    },
+    {
+      "id": 5,
+      "name": "Roucool"
+    },
+    {
+      "id": 6,
+      "name": "Evoli"
+    },
+    {
+      "id": 7,
+      "name": "Psykokwak"
+    },
+    {
+      "id": 8,
+      "name": "Machoc"
+    },
+    {
+      "id": 9,
+      "name": "Caninos"
+    },
+    {
+      "id": 10,
+      "name": "Ramoloss"
+    },
+    {
+      "id": 11,
+      "name": "Greninja"
+    },
+    {
+      "id": 12,
+      "name": "Lucario"
+    },
+    {
+      "id": 13,
+      "name": "Mimikyu"
+    },
+    {
+      "id": 14,
+      "name": "Charizard"
+    },
+    {
+      "id": 15,
+      "name": "Umbreon"
+    },
+    {
+      "id": 16,
+      "name": "Sylveon"
+    },
+    {
+      "id": 17,
+      "name": "Garchomp"
+    },
+    {
+      "id": 18,
+      "name": "Rayquaza"
+    },
+    {
+      "id": 19,
+      "name": "Gardevoir"
+    },
+    {
+      "id": 20,
+      "name": "Gengar"
+    },
+    {
+      "id": 21,
+      "name": "Dragapult"
+    },
+    {
+      "id": 22,
+      "name": "Tyranitar"
+    },
+    {
+      "id": 23,
+      "name": "Rowlet"
+    },
+    {
+      "id": 24,
+      "name": "Aegislash"
+    },
+    {
+      "id": 25,
+      "name": "Chandelure"
+    },
+    {
+      "id": 26,
+      "name": "Luxray"
+    },
+    {
+      "id": 27,
+      "name": "Decidueye"
+    },
+    {
+      "id": 28,
+      "name": "Zoroark"
+    },
+    {
+      "id": 29,
+      "name": "Lycanroc"
+    },
+    {
+      "id": 30,
+      "name": "Corviknight"
+    }
+  ],
+  "trainers": [
+    {
+      "id": 101,
+      "name": "Ondine",
+      "reward": 55,
+      "experience": 1,
+      "pokemon": {
+        "id": 4,
+        "name": "Carapuce",
+        "hp": 38
+      }
+    },
+    {
+      "id": 102,
+      "name": "Pierre",
+      "reward": 70,
+      "experience": 2,
+      "pokemon": {
+        "id": 8,
+        "name": "Machoc",
+        "hp": 52
+      }
+    },
+    {
+      "id": 103,
+      "name": "Major Bob",
+      "reward": 85,
+      "experience": 2,
+      "pokemon": {
+        "id": 1,
+        "name": "Pikachu",
+        "hp": 61
+      }
+    },
+    {
+      "id": 104,
+      "name": "Erika",
+      "reward": 80,
+      "experience": 2,
+      "pokemon": {
+        "id": 2,
+        "name": "Bulbizarre",
+        "hp": 58
+      }
+    },
+    {
+      "id": 105,
+      "name": "Koga",
+      "reward": 95,
+      "experience": 3,
+      "pokemon": {
+        "id": 6,
+        "name": "Evoli",
+        "hp": 67
+      }
+    },
+    {
+      "id": 106,
+      "name": "Sabrina",
+      "reward": 110,
+      "experience": 4,
+      "pokemon": {
+        "id": 10,
+        "name": "Ramoloss",
+        "hp": 72
+      }
+    },
+    {
+      "id": 107,
+      "name": "Auguste",
+      "reward": 90,
+      "experience": 3,
+      "pokemon": {
+        "id": 9,
+        "name": "Caninos",
+        "hp": 65
+      }
+    },
+    {
+      "id": 108,
+      "name": "Giovanni",
+      "reward": 125,
+      "experience": 4,
+      "pokemon": {
+        "id": 8,
+        "name": "Machoc",
+        "hp": 83
+      }
+    },
+    {
+      "id": 109,
+      "name": "Blue",
+      "reward": 120,
+      "experience": 4,
+      "pokemon": {
+        "id": 3,
+        "name": "Salameche",
+        "hp": 79
+      }
+    },
+    {
+      "id": 110,
+      "name": "Red",
+      "reward": 135,
+      "experience": 4,
+      "pokemon": {
+        "id": 1,
+        "name": "Pikachu",
+        "hp": 88
+      }
+    },
+    {
+      "id": 111,
+      "name": "Marina",
+      "reward": 60,
+      "experience": 1,
+      "pokemon": {
+        "id": 7,
+        "name": "Psykokwak",
+        "hp": 44
+      }
+    },
+    {
+      "id": 112,
+      "name": "Milo",
+      "reward": 75,
+      "experience": 2,
+      "pokemon": {
+        "id": 2,
+        "name": "Bulbizarre",
+        "hp": 55
+      }
+    },
+    {
+      "id": 113,
+      "name": "Iris",
+      "reward": 100,
+      "experience": 3,
+      "pokemon": {
+        "id": 6,
+        "name": "Evoli",
+        "hp": 68
+      }
+    },
+    {
+      "id": 114,
+      "name": "Cynthia",
+      "reward": 140,
+      "experience": 4,
+      "pokemon": {
+        "id": 9,
+        "name": "Caninos",
+        "hp": 92
+      }
+    },
+    {
+      "id": 115,
+      "name": "Nabil",
+      "reward": 65,
+      "experience": 1,
+      "pokemon": {
+        "id": 5,
+        "name": "Roucool",
+        "hp": 46
+      }
+    }
+  ]
+}

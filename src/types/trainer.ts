@@ -1,12 +1,9 @@
+import type { GamePokemon } from "./gamePokemon";
 
 export interface Trainer {
-    "id": number,
-    "name": string,
-    "reward": number,
-    "experience": number,
-    "pokemon": {
-      "id": number,
-      "name": string,
-      "hp": number
-    }
+  name: string;
+  experience: string;
+  score: number;
+  team: GamePokemon[];
+  activePokemon: GamePokemon;
 }
