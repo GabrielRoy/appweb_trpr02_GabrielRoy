@@ -4,7 +4,7 @@ export default defineConfig({
   title: "Travail Pratique 2",
   description: "A VitePress Site",
 
-  base: "/appweb_trpr02_GabrielRoy/", // 🔥 IMPORTANT
+  base: "/appweb_trpr02_GabrielRoy/",
 
   themeConfig: {
     nav: [
