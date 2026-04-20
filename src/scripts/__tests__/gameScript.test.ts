@@ -123,11 +123,9 @@ describe("useGame", () => {
         name: "Enemy",
         experience: 1,
         reward: 50,
-        pokemon: { hp: 1, maxHp: 100 }, // ✅ IMPORTANT
+        pokemon: { hp: 0, maxHp: 100 }, // ✅ déjà KO
       },
     ]);
-
-    vi.spyOn(Math, "random").mockReturnValue(0);
 
     game.playTurn();
 

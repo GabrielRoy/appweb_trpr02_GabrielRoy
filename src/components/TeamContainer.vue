@@ -16,7 +16,7 @@ defineProps<{
   <div class="card">
     <h3>Équipe</h3>
 
-    <div v-for="pokemon in player.team" :key="pokemon.id">
+    <div v-for="pokemon in player.team" :key="pokemon.id" class="pokemon-row">
       <p>
         {{ pokemon.name }}
         ({{ pokemon.hp }}/{{ pokemon.maxHp }})
